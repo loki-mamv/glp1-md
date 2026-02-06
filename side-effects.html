@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="ai-content" content="allowed">
-    <meta name="ai-training" content="allowed">
-    <meta name="ai-topic" content="GLP-1, weight loss, diabetes, medication">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GLP-1 Side Effects & How to Manage Them | glp1.md</title>
-    <meta name="description" content="Common side effects of GLP-1 medications like Ozempic and Mounjaro. Learn how to manage nausea, GI symptoms, and when to contact your doctor.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@thraborivemd">
-    <meta name="twitter:title" content="GLP-1 Medications Guide">
-    <meta name="twitter:description" content="Evidence-based health information from glp1.md">
+    <title>GLP-1 Side Effects — Common & Serious Adverse Effects</title>
+    <meta name="description" content="Complete guide to GLP-1 medication side effects. Common GI symptoms, serious risks, warning signs, and how to minimize side effects for Ozempic, Wegovy, Mounjaro, and more.">
     <link rel="canonical" href="https://glp1.md/side-effects.html">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle'%3E.md%3C/text%3E%3C/svg%3E">
+    
+    <!-- AI Meta Tags -->
+    <meta name="ai-content" content="evidence-based health information">
+    <meta name="ai-training" content="allowed">
+    <meta name="ai-topic" content="GLP-1 side effects, Ozempic side effects, nausea, weight loss medication risks">
+    <meta name="ai-audience" content="patients, caregivers, healthcare providers">
+    <meta name="ai-use" content="education, research, clinical support">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-primary: #ffffff;
             --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
             --text-primary: #0f172a;
             --text-secondary: #475569;
             --text-muted: #94a3b8;
@@ -30,52 +32,165 @@
             --font-body: 'Inter', -apple-system, sans-serif;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: var(--font-body); background: var(--bg-primary); color: var(--text-primary); line-height: 1.8; font-size: 17px; }
-        
-        header { background: var(--bg-primary); border-bottom: 1px solid var(--border); padding: 16px 24px; position: sticky; top: 0; z-index: 100; }
-        .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-family: var(--font-display); font-size: 22px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: var(--font-display);
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
         .logo span { color: var(--accent); }
-        nav a { color: var(--text-secondary); text-decoration: none; margin-left: 24px; font-size: 15px; }
+        nav { display: flex; gap: 32px; }
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
         nav a:hover { color: var(--accent); }
-        
-        article { max-width: 700px; margin: 0 auto; padding: 60px 24px 80px; }
-        
-        .breadcrumb { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .breadcrumb a { color: var(--accent); text-decoration: none; }
-        h1 { font-family: var(--font-display); font-size: clamp(32px, 5vw, 42px); font-weight: 700; line-height: 1.2; margin-bottom: 16px; }
-        .article-meta { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; }
-        .article-intro { font-size: 19px; color: var(--text-secondary); padding-bottom: 32px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
-        
-        h2 { font-family: var(--font-display); font-size: 28px; font-weight: 600; margin: 48px 0 20px; }
-        h3 { font-family: var(--font-display); font-size: 22px; font-weight: 600; margin: 36px 0 16px; }
-        p { margin-bottom: 20px; }
-        
-        .side-effect-card { background: var(--bg-secondary); border-radius: 12px; padding: 24px; margin: 20px 0; border-left: 4px solid var(--accent); }
-        .side-effect-card h4 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
-        .side-effect-card .frequency { font-size: 13px; color: var(--accent); font-weight: 500; margin-bottom: 12px; }
-        .side-effect-card p { margin-bottom: 12px; color: var(--text-secondary); }
-        .side-effect-card ul { margin: 0; padding-left: 20px; }
-        .side-effect-card li { margin-bottom: 6px; font-size: 15px; }
-        
-        .warning-box { background: #fef2f2; border-left: 4px solid #ef4444; padding: 20px 24px; margin: 32px 0; border-radius: 0 8px 8px 0; }
-        .warning-box h4 { color: #b91c1c; margin-bottom: 8px; font-size: 16px; }
-        .warning-box p { margin: 0; color: #7f1d1d; font-size: 15px; }
-        .warning-box ul { margin: 12px 0 0; padding-left: 20px; color: #7f1d1d; }
-        
-        .tip-box { background: var(--accent-light); border-radius: 12px; padding: 20px 24px; margin: 24px 0; }
-        .tip-box h4 { font-size: 14px; font-weight: 600; color: var(--accent-dark); margin-bottom: 8px; }
-        .tip-box p { margin: 0; font-size: 15px; }
-        .tip-box ul { margin: 8px 0 0; padding-left: 20px; }
-        
-        ul, ol { margin: 0 0 20px 24px; }
-        li { margin-bottom: 10px; }
-        
-        footer { background: var(--bg-secondary); border-top: 1px solid var(--border); padding: 48px 24px; }
-        .footer-inner { max-width: 700px; margin: 0 auto; text-align: center; font-size: 14px; color: var(--text-muted); }
-        .footer-inner a { color: var(--accent); text-decoration: none; }
-        
-        @media (max-width: 768px) { nav { display: none; } }
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 120px 24px 64px;
+        }
+        .page-header { margin-bottom: 48px; }
+        .page-eyebrow {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-family: var(--font-display);
+            font-size: clamp(32px, 5vw, 42px);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .page-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .section { margin-bottom: 48px; }
+        h2 {
+            font-family: var(--font-display);
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-family: var(--font-display);
+            font-size: 19px;
+            font-weight: 600;
+            margin: 24px 0 12px;
+        }
+        p {
+            font-size: 17px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        .side-effect-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+        .side-effect-card h4 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .side-effect-card p {
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        .rate-badge {
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 100px;
+            font-weight: 500;
+        }
+        .rate-common { background: #fef3c7; color: #92400e; }
+        .rate-uncommon { background: #dbeafe; color: #1e40af; }
+        .rate-rare { background: #fce7f3; color: #9d174d; }
+        .warning-box {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-left: 4px solid #ef4444;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        .warning-box h3 { color: #991b1b; margin-top: 0; }
+        .warning-box p { color: #7f1d1d; font-size: 15px; }
+        .info-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        .info-box h3 { margin-top: 0; font-size: 17px; }
+        .info-box p { margin-bottom: 0; font-size: 15px; }
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+        li { margin-bottom: 8px; }
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            padding: 48px 24px;
+            margin-top: 80px;
+        }
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+        @media (max-width: 768px) {
+            nav { display: none; }
+            main { padding: 100px 16px 40px; }
+        }
     </style>
 </head>
 <body>
@@ -84,171 +199,169 @@
             <a href="/" class="logo">glp1<span>.md</span></a>
             <nav>
                 <a href="/">Home</a>
-                <a href="/blog.html">Articles</a>
-                <a href="/resources.html">Resources</a>
+                <a href="/comparison.html">Compare Meds</a>
+                <a href="/side-effects.html">Side Effects</a>
+                <a href="/cost-insurance.html">Cost & Insurance</a>
+                <a href="/eligibility.html">Who Qualifies</a>
+                <a href="/faq.html">FAQ</a>
             </nav>
         </div>
     </header>
 
-    <article>
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog.html">Articles</a> / Side Effects</div>
-        <h1>Managing GLP-1 Side Effects</h1>
-        <div class="article-meta">Updated Feb 2026 · 10 min read</div>
-        <p class="article-intro">Most GLP-1 side effects are manageable and improve over time. Here's what to expect and how to minimize discomfort during your treatment.</p>
-
-        <h2>Common Side Effects</h2>
-        <p>Gastrointestinal symptoms are the most common side effects of GLP-1 medications. They typically occur during dose escalation and improve as your body adjusts.</p>
-
-        <div class="side-effect-card">
-            <h4>Nausea</h4>
-            <div class="frequency">Very common (30-50% of patients)</div>
-            <p>The most frequently reported side effect. Usually mild to moderate and improves within weeks.</p>
-            <ul>
-                <li>Eat smaller, more frequent meals</li>
-                <li>Avoid high-fat and greasy foods</li>
-                <li>Eat slowly and stop when you first feel full</li>
-                <li>Stay hydrated with small sips throughout the day</li>
-                <li>Ginger (tea, chews, or supplements) can help</li>
-            </ul>
+    <main>
+        <div class="page-header">
+            <div class="page-eyebrow">Safety Information</div>
+            <h1>GLP-1 Side Effects & Safety</h1>
+            <p class="page-subtitle">Complete guide to common and serious side effects of GLP-1 medications. What to expect, warning signs, and how to minimize discomfort.</p>
         </div>
-
-        <div class="side-effect-card">
-            <h4>Vomiting</h4>
-            <div class="frequency">Common (10-20% of patients)</div>
-            <p>Often related to eating too much or too quickly. More common during dose increases.</p>
-            <ul>
-                <li>Same strategies as nausea management</li>
-                <li>Don't lie down immediately after eating</li>
-                <li>Consider staying at current dose longer before increasing</li>
-            </ul>
-        </div>
-
-        <div class="side-effect-card">
-            <h4>Diarrhea</h4>
-            <div class="frequency">Common (15-25% of patients)</div>
-            <p>May occur as your digestive system adjusts to the medication.</p>
-            <ul>
-                <li>Stay well hydrated</li>
-                <li>Avoid artificial sweeteners</li>
-                <li>Reduce fatty foods temporarily</li>
-                <li>Consider probiotics</li>
-            </ul>
-        </div>
-
-        <div class="side-effect-card">
-            <h4>Constipation</h4>
-            <div class="frequency">Common (15-25% of patients)</div>
-            <p>Slowed digestion can lead to constipation. Reduced food intake also means less bulk.</p>
-            <ul>
-                <li>Increase fiber intake (vegetables, fruits, whole grains)</li>
-                <li>Drink plenty of water</li>
-                <li>Stay physically active</li>
-                <li>Consider a fiber supplement if needed</li>
-            </ul>
-        </div>
-
-        <div class="side-effect-card">
-            <h4>Injection Site Reactions</h4>
-            <div class="frequency">Occasional (5-10% of patients)</div>
-            <p>Redness, itching, or mild pain at the injection site.</p>
-            <ul>
-                <li>Rotate injection sites (abdomen, thigh, upper arm)</li>
-                <li>Let medication reach room temperature before injecting</li>
-                <li>Apply a cool compress if needed</li>
-            </ul>
-        </div>
-
-        <h2>Less Common Side Effects</h2>
-        
-        <h3>Fatigue</h3>
-        <p>Some patients report tiredness, especially in the first few weeks. This often relates to reduced calorie intake. Ensure you're eating enough protein and getting adequate nutrition despite reduced appetite.</p>
-
-        <h3>Headache</h3>
-        <p>Usually temporary and mild. Stay hydrated and ensure you're not skipping meals entirely.</p>
-
-        <h3>Dizziness</h3>
-        <p>Can occur with blood sugar changes or dehydration. Monitor if you have diabetes.</p>
-
-        <h3>Hair Loss</h3>
-        <p>Rapid weight loss from any cause can trigger temporary hair shedding (telogen effluvium). This is related to the weight loss itself, not the medication directly. It typically resolves as weight stabilizes.</p>
-
-        <div class="tip-box">
-            <h4>💡 Pro Tips from Patients</h4>
-            <ul>
-                <li>Take your injection in the evening—sleep through the worst nausea</li>
-                <li>Keep simple, bland foods on hand for rough days</li>
-                <li>Don't force yourself to eat large meals—listen to your body</li>
-                <li>Peppermint tea can help with nausea</li>
-                <li>Ask about ondansetron (Zofran) for severe nausea</li>
-            </ul>
-        </div>
-
-        <h2>Serious Side Effects (Rare)</h2>
 
         <div class="warning-box">
-            <h4>⚠️ Contact Your Doctor Immediately If You Experience:</h4>
-            <ul>
-                <li><strong>Severe abdominal pain</strong> that doesn't go away (possible pancreatitis)</li>
-                <li><strong>Signs of allergic reaction:</strong> rash, itching, swelling, difficulty breathing</li>
-                <li><strong>Vision changes</strong> (especially if you have diabetic retinopathy)</li>
-                <li><strong>Signs of gallbladder problems:</strong> pain in upper right abdomen, fever, jaundice</li>
-                <li><strong>Severe hypoglycemia</strong> if taking with insulin or sulfonylureas</li>
-                <li><strong>Kidney problems:</strong> decreased urination, swelling in legs/feet</li>
-            </ul>
+            <h3>⚠️ Boxed Warning (All GLP-1 Medications)</h3>
+            <p>Thyroid C-cell tumors have been observed in rodents. GLP-1 medications are contraindicated in patients with a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). It is unknown whether GLP-1 medications cause thyroid C-cell tumors in humans.</p>
         </div>
 
-        <h3>Pancreatitis</h3>
-        <p>Inflammation of the pancreas is a rare but serious risk. Symptoms include severe abdominal pain that may radiate to your back, nausea, and vomiting. Stop the medication and seek medical care immediately if suspected.</p>
+        <section class="section">
+            <h2>Common Side Effects</h2>
+            <p>Gastrointestinal side effects are the most common with all GLP-1 medications. They typically improve over 4-8 weeks as your body adjusts.</p>
 
-        <h3>Gallbladder Disease</h3>
-        <p>Rapid weight loss increases gallstone risk with any method. GLP-1 medications may slightly increase this risk. Symptoms include pain in the upper right abdomen, especially after eating fatty foods.</p>
+            <div class="side-effect-card">
+                <h4>🤢 Nausea <span class="rate-badge rate-common">15-44%</span></h4>
+                <p>The most common side effect, especially during dose escalation. Usually mild to moderate and improves over time. More common with higher doses used for weight loss.</p>
+            </div>
 
-        <h3>Thyroid Tumors</h3>
-        <p>GLP-1 medications carry a boxed warning about thyroid C-cell tumors seen in rodent studies. This hasn't been confirmed in humans, but these medications are contraindicated if you have a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).</p>
+            <div class="side-effect-card">
+                <h4>🚽 Diarrhea <span class="rate-badge rate-common">9-30%</span></h4>
+                <p>May occur in the first few weeks. Stay hydrated and consider reducing fat intake. Usually resolves on its own.</p>
+            </div>
 
-        <h2>Managing Side Effects: General Strategies</h2>
+            <div class="side-effect-card">
+                <h4>🤮 Vomiting <span class="rate-badge rate-common">6-27%</span></h4>
+                <p>More common with tirzepatide (Mounjaro/Zepbound). Eating smaller meals and avoiding fatty foods can help.</p>
+            </div>
 
-        <h3>During Dose Titration</h3>
-        <ul>
-            <li><strong>Go slow:</strong> Don't rush to increase your dose. Stay at each level until side effects are manageable.</li>
-            <li><strong>Communicate:</strong> Tell your doctor about persistent symptoms. They may adjust your titration schedule.</li>
-            <li><strong>Be patient:</strong> Most side effects improve significantly over 4-8 weeks.</li>
-        </ul>
+            <div class="side-effect-card">
+                <h4>💨 Constipation <span class="rate-badge rate-common">5-24%</span></h4>
+                <p>Related to slowed gastric emptying. Increase fiber intake, stay hydrated, and consider a stool softener if persistent.</p>
+            </div>
 
-        <h3>Dietary Adjustments</h3>
-        <ul>
-            <li>Eat smaller portions more frequently</li>
-            <li>Prioritize protein at each meal</li>
-            <li>Reduce fatty, greasy, and fried foods</li>
-            <li>Avoid eating until you're overly full</li>
-            <li>Don't drink large amounts of liquid with meals</li>
-        </ul>
+            <div class="side-effect-card">
+                <h4>😖 Abdominal Pain <span class="rate-badge rate-common">5-20%</span></h4>
+                <p>Usually mild. Severe or persistent abdominal pain (especially radiating to back) may indicate pancreatitis — seek medical attention.</p>
+            </div>
 
-        <h3>Lifestyle Factors</h3>
-        <ul>
-            <li>Stay physically active (helps with constipation and overall well-being)</li>
-            <li>Get adequate sleep</li>
-            <li>Manage stress (can worsen GI symptoms)</li>
-            <li>Consider working with a registered dietitian</li>
-        </ul>
+            <div class="side-effect-card">
+                <h4>💉 Injection Site Reactions <span class="rate-badge rate-uncommon">3-6%</span></h4>
+                <p>Redness, swelling, or itching at the injection site. Usually mild and temporary. Rotate injection sites to minimize.</p>
+            </div>
 
-        <h2>When Side Effects Don't Improve</h2>
-        <p>If side effects remain problematic despite these strategies:</p>
-        <ul>
-            <li>Your doctor may recommend a slower titration schedule</li>
-            <li>You might try a different GLP-1 medication (some people tolerate one better than another)</li>
-            <li>Anti-nausea medications can be prescribed for temporary relief</li>
-            <li>In rare cases, the medication may not be right for you</li>
-        </ul>
+            <div class="side-effect-card">
+                <h4>😴 Fatigue <span class="rate-badge rate-uncommon">4-11%</span></h4>
+                <p>May be related to reduced caloric intake. Ensure adequate nutrition despite reduced appetite.</p>
+            </div>
 
-        <p>Most patients find that side effects are manageable and worth the benefits. The key is communication with your healthcare team and patience during the adjustment period.</p>
-    </article>
+            <div class="side-effect-card">
+                <h4>🤕 Headache <span class="rate-badge rate-uncommon">4-14%</span></h4>
+                <p>Usually mild and resolves within the first few weeks of treatment.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Serious Side Effects</h2>
+            <p>These are rare but important to know about. Seek medical attention if you experience any of these:</p>
+
+            <div class="warning-box">
+                <h3>🏥 Pancreatitis</h3>
+                <p><strong>Warning signs:</strong> Severe abdominal pain that doesn't go away, pain radiating to your back, nausea/vomiting that won't stop. <strong>Action:</strong> Stop the medication and seek immediate medical care. Risk is increased in patients with a history of pancreatitis.</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>🫀 Gallbladder Disease</h3>
+                <p><strong>Warning signs:</strong> Upper right abdominal pain, pain after eating fatty foods, nausea, fever. <strong>Why it happens:</strong> Rapid weight loss increases gallstone formation risk. More common with higher weight loss. May require gallbladder removal.</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>🧪 Acute Kidney Injury</h3>
+                <p><strong>Warning signs:</strong> Decreased urination, swelling in legs/ankles, fatigue, confusion. <strong>Why it happens:</strong> Usually related to dehydration from persistent vomiting or diarrhea. Stay well hydrated, especially during GI symptoms.</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>👁️ Diabetic Retinopathy Complications</h3>
+                <p><strong>Who's at risk:</strong> Patients with existing diabetic retinopathy. Rapid improvement in blood sugar can sometimes worsen retinopathy temporarily. Regular eye exams recommended.</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>📉 Hypoglycemia (Low Blood Sugar)</h3>
+                <p><strong>When:</strong> Primarily when combined with insulin or sulfonylureas. <strong>Warning signs:</strong> Shakiness, sweating, confusion, rapid heartbeat, dizziness. <strong>Action:</strong> Your doctor may reduce your insulin or sulfonylurea dose when starting a GLP-1.</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>⚠️ Allergic Reactions</h3>
+                <p><strong>Warning signs:</strong> Rash, itching, difficulty breathing, swelling of face/lips/tongue. <strong>Action:</strong> Seek immediate medical attention. Do not take further doses.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>How to Minimize Side Effects</h2>
+            
+            <h3>Start Low, Go Slow</h3>
+            <ul>
+                <li>Always follow the titration schedule (usually 4 weeks at each dose)</li>
+                <li>If side effects are severe, your doctor may slow down the dose escalation</li>
+                <li>Don't skip doses — inconsistent use can worsen side effects</li>
+            </ul>
+
+            <h3>Eating Strategies</h3>
+            <ul>
+                <li><strong>Eat smaller, more frequent meals</strong> instead of large meals</li>
+                <li><strong>Avoid fatty, greasy, and fried foods</strong> — they worsen nausea</li>
+                <li><strong>Eat slowly</strong> and stop when you feel comfortably full</li>
+                <li><strong>Avoid lying down</strong> immediately after eating</li>
+                <li><strong>Bland foods</strong> (crackers, toast, rice) may help during nausea</li>
+            </ul>
+
+            <h3>Stay Hydrated</h3>
+            <ul>
+                <li>Drink plenty of water throughout the day</li>
+                <li>Replace electrolytes if you have diarrhea or vomiting</li>
+                <li>Dehydration can lead to kidney problems</li>
+            </ul>
+
+            <h3>Timing Tips</h3>
+            <ul>
+                <li>Take your injection at the same time each week</li>
+                <li>Some patients find fewer side effects when injecting in the evening or before bed</li>
+                <li>For oral semaglutide (Rybelsus): take on empty stomach, 30+ minutes before food/drink</li>
+            </ul>
+
+            <div class="info-box">
+                <h3>💡 When to Call Your Doctor</h3>
+                <p>Contact your healthcare provider if: side effects don't improve after 4-6 weeks, you can't keep food or fluids down, you have severe abdominal pain, or you're losing weight too rapidly (more than 2 lbs per week consistently).</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Special Populations</h2>
+            
+            <h3>Pregnancy & Breastfeeding</h3>
+            <p>GLP-1 medications should be stopped at least 2 months before planned pregnancy. Animal studies show potential fetal harm. Not recommended during breastfeeding due to unknown effects.</p>
+
+            <h3>Elderly Patients (≥65 years)</h3>
+            <p>No dose adjustment needed, but monitor more closely for dehydration and side effects. Start with lowest dose and titrate slowly.</p>
+
+            <h3>Kidney Disease</h3>
+            <p>No dose adjustment for mild-moderate kidney impairment. Use caution in severe kidney disease. Monitor closely for GI side effects that could cause dehydration.</p>
+
+            <h3>History of Pancreatitis</h3>
+            <p>GLP-1 medications are not strictly contraindicated but should be used with caution. Discuss risks and benefits with your doctor. Monitor for symptoms closely.</p>
+        </section>
+
+    </main>
 
     <footer>
         <div class="footer-inner">
-            <p>© 2026 glp1.md · Part of the <a href="https://thrive.md">thrive.md</a> health network</p>
-            <p style="margin-top: 12px; font-size: 12px;">This website provides general health information. It is not a substitute for professional medical advice.</p>
+            <p>© 2026 glp1.md · Part of <a href="https://thrive.md" style="color: var(--accent); text-decoration: none;">thrive.md</a></p>
+            <p style="margin-top: 8px; font-size: 12px;">Side effect rates from FDA-approved prescribing information. This is not medical advice. Always consult your healthcare provider.</p>
         </div>
     </footer>
-<p style="text-align:center;color:#64748b;font-size:12px;padding:20px;">Last reviewed: February 2026</p></body>
+</body>
 </html>

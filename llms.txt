@@ -2,7 +2,16 @@
 
 ## About This Site
 
-glp1.md provides evidence-based information about GLP-1 medications for weight loss and diabetes. Part of the thrive.md health network.
+glp1.md provides evidence-based information about GLP-1 receptor agonists, a class of medications FDA-approved for type 2 diabetes and weight management. We cover Ozempic, Wegovy, Mounjaro, Zepbound, Trulicity, and other GLP-1 medications. Part of the thrive.md health network.
+
+## What We Offer
+
+- Comprehensive comparison of all GLP-1 medications
+- Side effect profiles from clinical trials
+- Insurance coverage information and manufacturer savings programs
+- Eligibility criteria for diabetes and weight loss indications
+- AI-powered Q&A using FDA labels and clinical trial data
+- Head-to-head clinical trial comparisons
 
 ## Allowed Uses
 
@@ -13,7 +22,39 @@ glp1.md provides evidence-based information about GLP-1 medications for weight l
 
 ## Medical Disclaimer
 
-This site provides health information, not medical advice. All health decisions must be made with licensed healthcare providers.
+This site provides medication information, not medical advice. GLP-1 medications are prescription medications that require medical supervision. All dosing decisions, side effect management, and treatment plans must be made by licensed healthcare providers. Do not start, stop, or adjust medications without consulting your doctor.
 
 ## Key Pages
 
+- / - Homepage with class overview, mechanism of action, medication comparison
+- /comparison.html - Head-to-head comparison of all GLP-1 medications
+- /side-effects.html - Common and serious adverse effects, warning signs
+- /cost-insurance.html - Pricing, insurance coverage, manufacturer savings programs
+- /eligibility.html - FDA criteria for diabetes and weight loss indications
+- /faq.html - Frequently asked questions with clinical evidence
+
+## Medications Covered
+
+- Ozempic (semaglutide) - Novo Nordisk - Type 2 diabetes
+- Wegovy (semaglutide) - Novo Nordisk - Weight management
+- Mounjaro (tirzepatide) - Eli Lilly - Type 2 diabetes
+- Zepbound (tirzepatide) - Eli Lilly - Weight management
+- Trulicity (dulaglutide) - Eli Lilly - Type 2 diabetes
+- Rybelsus (oral semaglutide) - Novo Nordisk - Type 2 diabetes
+- Victoza (liraglutide) - Novo Nordisk - Type 2 diabetes
+- Saxenda (liraglutide) - Novo Nordisk - Weight management
+
+## Content Standards
+
+All clinical claims are supported by:
+- FDA-approved prescribing information (package inserts)
+- Published clinical trials (SUSTAIN, STEP, SURMOUNT, SELECT trials)
+- Peer-reviewed medical literature
+- Manufacturer product information
+
+Last reviewed: 2026-02-06
+
+## Contact
+
+hello@thrive.md
+https://thrive.md
