@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ai-content" content="allowed">
+    <meta name="ai-training" content="allowed">
+    <meta name="ai-topic" content="GLP-1, weight loss, diabetes, medication">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How GLP-1 Medications Work — The Science Explained | glp1.md</title>
+    <meta name="description" content="Understand how GLP-1 receptor agonists work. The science behind Ozempic, Wegovy, and Mounjaro's effects on appetite, blood sugar, and weight loss.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@thraborivemd">
+    <meta name="twitter:title" content="GLP-1 Medications Guide">
+    <meta name="twitter:description" content="Evidence-based health information from glp1.md">
+    <link rel="canonical" href="https://glp1.md/how-glp1-works.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "name": "How GLP-1 Medications Work",
+      "description": "Scientific explanation of GLP-1 receptor agonist mechanisms.",
+      "url": "https://glp1.md/how-glp1-works.html"
+    }
+    </script>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle'%3E.md%3C/text%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --accent-light: #ccfbf1;
+            --border: #e2e8f0;
+            --font-display: 'Source Serif 4', Georgia, serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--bg-primary); color: var(--text-primary); line-height: 1.8; font-size: 17px; }
+        
+        header { background: var(--bg-primary); border-bottom: 1px solid var(--border); padding: 16px 24px; position: sticky; top: 0; z-index: 100; }
+        .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: var(--font-display); font-size: 22px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+        .logo span { color: var(--accent); }
+        nav a { color: var(--text-secondary); text-decoration: none; margin-left: 24px; font-size: 15px; }
+        nav a:hover { color: var(--accent); }
+        
+        article { max-width: 700px; margin: 0 auto; padding: 60px 24px 80px; }
+        
+        .breadcrumb { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
+        .breadcrumb a { color: var(--accent); text-decoration: none; }
+        h1 { font-family: var(--font-display); font-size: clamp(32px, 5vw, 42px); font-weight: 700; line-height: 1.2; margin-bottom: 16px; }
+        .article-meta { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; }
+        .article-intro { font-size: 19px; color: var(--text-secondary); padding-bottom: 32px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+        
+        h2 { font-family: var(--font-display); font-size: 28px; font-weight: 600; margin: 48px 0 20px; }
+        h3 { font-family: var(--font-display); font-size: 22px; font-weight: 600; margin: 36px 0 16px; }
+        p { margin-bottom: 20px; }
+        
+        .mechanism-box { background: var(--bg-secondary); border-radius: 16px; padding: 32px; margin: 32px 0; }
+        .mechanism-box h4 { font-size: 18px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 12px; }
+        .mechanism-box h4 span { font-size: 32px; }
+        .mechanism-box p { margin-bottom: 0; color: var(--text-secondary); }
+        
+        .key-points { background: var(--accent-light); border-radius: 12px; padding: 24px 28px; margin: 32px 0; }
+        .key-points h4 { font-size: 14px; font-weight: 600; color: var(--accent-dark); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+        .key-points ul { margin: 0; padding-left: 20px; }
+        .key-points li { margin-bottom: 8px; }
+        
+        ul, ol { margin: 0 0 20px 24px; }
+        li { margin-bottom: 10px; }
+        
+        .diagram { background: linear-gradient(135deg, var(--accent-light) 0%, #99f6e4 100%); border-radius: 16px; padding: 40px; margin: 32px 0; text-align: center; }
+        .diagram h4 { font-size: 16px; font-weight: 600; margin-bottom: 24px; }
+        .diagram-steps { display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap; }
+        .diagram-step { background: white; border-radius: 12px; padding: 16px 20px; font-size: 14px; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        .diagram-arrow { font-size: 20px; color: var(--accent-dark); }
+        
+        footer { background: var(--bg-secondary); border-top: 1px solid var(--border); padding: 48px 24px; }
+        .footer-inner { max-width: 700px; margin: 0 auto; text-align: center; font-size: 14px; color: var(--text-muted); }
+        .footer-inner a { color: var(--accent); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            nav { display: none; }
+            .diagram-steps { flex-direction: column; }
+            .diagram-arrow { transform: rotate(90deg); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">glp1<span>.md</span></a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/blog.html">Articles</a>
+                <a href="/resources.html">Resources</a>
+            </nav>
+        </div>
+    </header>
+
+    <article>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog.html">Articles</a> / How GLP-1 Works</div>
+        <h1>How GLP-1 Medications Work</h1>
+        <div class="article-meta">Updated Feb 2026 · 12 min read</div>
+        <p class="article-intro">Understanding the science behind medications like Ozempic, Wegovy, and Mounjaro. How they affect your appetite, blood sugar, and metabolism to produce weight loss.</p>
+
+        <div class="key-points">
+            <h4>Key Takeaways</h4>
+            <ul>
+                <li>GLP-1 medications mimic a natural hormone your body produces after eating</li>
+                <li>They work on multiple systems: brain (appetite), pancreas (insulin), and stomach (digestion)</li>
+                <li>Effects include reduced hunger, earlier fullness, and better blood sugar control</li>
+                <li>Tirzepatide (Mounjaro/Zepbound) activates both GLP-1 and GIP receptors</li>
+            </ul>
+        </div>
+
+        <h2>What is GLP-1?</h2>
+        <p>GLP-1 (glucagon-like peptide-1) is a hormone naturally produced by your intestines after you eat. It's called an "incretin" hormone because it helps regulate blood sugar and appetite. Natural GLP-1 is rapidly broken down in the body—lasting only a few minutes.</p>
+        
+        <p>GLP-1 medications like semaglutide and tirzepatide are modified versions that resist breakdown, allowing them to stay active for about a week. This sustained activity produces more powerful effects than your natural GLP-1.</p>
+
+        <h2>The Four Key Mechanisms</h2>
+
+        <div class="mechanism-box">
+            <h4><span>🧠</span> Brain: Reduces Appetite</h4>
+            <p>GLP-1 receptors in the hypothalamus (your brain's hunger center) receive signals that reduce appetite and increase feelings of fullness. Many patients describe reduced "food noise"—the constant thoughts about food that can drive overeating.</p>
+        </div>
+
+        <div class="mechanism-box">
+            <h4><span>🫁</span> Pancreas: Improves Insulin</h4>
+            <p>GLP-1 medications stimulate insulin release—but only when blood sugar is elevated. This glucose-dependent mechanism means they rarely cause hypoglycemia (low blood sugar) on their own. They also suppress glucagon, which normally raises blood sugar.</p>
+        </div>
+
+        <div class="mechanism-box">
+            <h4><span>🍽️</span> Stomach: Slows Digestion</h4>
+            <p>These medications slow gastric emptying—how quickly food leaves your stomach. This contributes to feeling full longer after meals. It's also why eating too much or too quickly can cause nausea.</p>
+        </div>
+
+        <div class="mechanism-box">
+            <h4><span>💪</span> Body: Metabolic Benefits</h4>
+            <p>Beyond weight and blood sugar, GLP-1 medications show benefits for cardiovascular health, fatty liver disease, and inflammation. Research is ongoing into effects on brain health, kidney disease, and more.</p>
+        </div>
+
+        <h2>How the Process Works</h2>
+
+        <div class="diagram">
+            <h4>From Injection to Effect</h4>
+            <div class="diagram-steps">
+                <div class="diagram-step">💉 Weekly injection</div>
+                <span class="diagram-arrow">→</span>
+                <div class="diagram-step">🩸 Enters bloodstream</div>
+                <span class="diagram-arrow">→</span>
+                <div class="diagram-step">🎯 Binds GLP-1 receptors</div>
+                <span class="diagram-arrow">→</span>
+                <div class="diagram-step">📉 Reduced appetite</div>
+            </div>
+        </div>
+
+        <h2>Semaglutide vs Tirzepatide</h2>
+        
+        <h3>Semaglutide (Ozempic, Wegovy)</h3>
+        <p>Semaglutide is a pure GLP-1 receptor agonist. It binds to and activates GLP-1 receptors throughout the body. It's been used since 2017 and has extensive safety data.</p>
+
+        <h3>Tirzepatide (Mounjaro, Zepbound)</h3>
+        <p>Tirzepatide is a "dual agonist" that activates both GLP-1 and GIP (glucose-dependent insulinotropic polypeptide) receptors. GIP is another incretin hormone with complementary effects.</p>
+        
+        <p>The dual mechanism may explain tirzepatide's superior weight loss in clinical trials. GIP receptors in fat tissue and the brain may provide additional metabolic benefits beyond GLP-1 alone.</p>
+
+        <div class="key-points">
+            <h4>Why Two Hormones May Be Better</h4>
+            <ul>
+                <li>GIP enhances GLP-1's effects on appetite and insulin</li>
+                <li>GIP receptors in fat tissue may improve fat metabolism</li>
+                <li>Dual activation may reduce some GI side effects</li>
+                <li>Clinical trials show ~5% more weight loss vs semaglutide</li>
+            </ul>
+        </div>
+
+        <h2>Why Do These Medications Work So Well?</h2>
+        <p>Traditional weight loss advice—eat less, move more—fights against powerful biological systems designed to prevent starvation. When you lose weight through diet alone, your body fights back:</p>
+        <ul>
+            <li>Hunger hormones increase</li>
+            <li>Metabolic rate decreases</li>
+            <li>Food becomes more rewarding to your brain</li>
+        </ul>
+        
+        <p>GLP-1 medications work <em>with</em> your biology rather than against it. By reducing appetite signals and improving metabolic hormones, they make sustainable calorie reduction feel natural rather than forced.</p>
+
+        <h2>The Importance of Slow Titration</h2>
+        <p>These medications are started at low doses and gradually increased. This titration period serves several purposes:</p>
+        <ul>
+            <li>Allows your body to adjust, minimizing side effects</li>
+            <li>Lets GLP-1 receptors adapt to continuous stimulation</li>
+            <li>Helps find your effective dose (not everyone needs maximum dose)</li>
+            <li>Reduces nausea and GI symptoms during adjustment</li>
+        </ul>
+
+        <h2>What the Research Shows</h2>
+        <p>Clinical trials have demonstrated consistent results:</p>
+        <ul>
+            <li><strong>STEP trials (semaglutide):</strong> 15-17% average weight loss, maintained over 2+ years with continued use</li>
+            <li><strong>SURMOUNT trials (tirzepatide):</strong> 21% average weight loss, with some patients losing over 25%</li>
+            <li><strong>SELECT trial:</strong> 20% reduction in cardiovascular events for people with obesity</li>
+        </ul>
+
+        <p>Importantly, weight tends to return when medications are stopped—similar to how blood pressure rises when you stop blood pressure medication. This suggests these drugs treat the underlying biology of obesity rather than providing a temporary fix.</p>
+
+        <h2>Current Research</h2>
+        <p>Scientists are studying GLP-1 medications for many other conditions:</p>
+        <ul>
+            <li>Non-alcoholic fatty liver disease (NAFLD/NASH)</li>
+            <li>Alzheimer's disease and cognitive decline</li>
+            <li>Chronic kidney disease</li>
+            <li>Addiction and substance use disorders</li>
+            <li>Sleep apnea</li>
+        </ul>
+        <p>The wide distribution of GLP-1 receptors throughout the body means these medications may have benefits we're only beginning to understand.</p>
+    </article>
+
+    <footer>
+        <div class="footer-inner">
+            <p>© 2026 glp1.md · Part of the <a href="https://thrive.md">thrive.md</a> health network</p>
+            <p style="margin-top: 12px; font-size: 12px;">This website provides general health information. It is not a substitute for professional medical advice.</p>
+        </div>
+    </footer>
+<p style="text-align:center;color:#64748b;font-size:12px;padding:20px;">Last reviewed: February 2026</p></body>
+</html>
