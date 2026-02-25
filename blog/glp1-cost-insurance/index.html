@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://glp1.md/blog/glp1-cost-insurance/#article"},
           "wordCount": "572",
           "lastReviewed": "2026-02-18",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Does Medicare cover GLP-1 for weight loss?", "acceptedAnswer": {"@type": "Answer", "text": "Currently, no. Medicare Part D explicitly excludes anti-obesity medications. The Treat and Reduce Obesity Act, if passed, would change this. Medicare does cover GLP-1 medications (Ozempic, Mounjaro) when prescribed for type 2 diabetes."}}, {"@type": "Question", "name": "What if my insurance denies GLP-1 coverage?", "acceptedAnswer": {"@type": "Answer", "text": "Appeal the denial. Many initial denials are reversed on appeal, especially with strong documentation from your doctor. Your prescriber's office can submit a letter of medical necessity including your BMI, comorbidities, and failed prior interventions. Some insurance plans have external review processes if internal appeals fail."}}, {"@type": "Question", "name": "Are compounded semaglutide and tirzepatide safe?", "acceptedAnswer": {"@type": "Answer", "text": "Quality varies significantly. Compounded medications from reputable 503B outsourcing facilities (FDA-registered) are generally safer than those from unregulated sources. However, compounded versions lack the quality assurance of FDA-approved products. The FDA has warned about some compounded semaglutide products containing incorrect doses or contaminants."}}, {"@type": "Question", "name": "How much do GLP-1 medications cost per month?", "acceptedAnswer": {"@type": "Answer", "text": "List price: $1,000-1,350/month. With commercial insurance and manufacturer savings: potentially $25-150/month. Without insurance: full list price unless you qualify for patient assistance programs or use compounding pharmacies ($200-500/month). The effective price varies enormously by individual situation."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

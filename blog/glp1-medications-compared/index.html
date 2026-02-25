@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://glp1.md/blog/glp1-medications-compared/#article"},
           "wordCount": "662",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Is Ozempic the same as Wegovy?", "acceptedAnswer": {"@type": "Answer", "text": "They contain the same active ingredient (semaglutide) but at different doses and with different FDA approvals. Ozempic (up to 2mg) is approved for type 2 diabetes. Wegovy (2.4mg) is approved for chronic weight management. The higher dose in Wegovy is optimized for weight loss rather than glucose control."}}, {"@type": "Question", "name": "Which GLP-1 causes the most weight loss?", "acceptedAnswer": {"@type": "Answer", "text": "Tirzepatide (Mounjaro/Zepbound) at the highest dose produced ~22.5% body weight loss in clinical trials, compared to ~15% for semaglutide (Wegovy). However, individual results vary significantly, and some people respond better to semaglutide than tirzepatide."}}, {"@type": "Question", "name": "Do you gain weight back when you stop GLP-1 medications?", "acceptedAnswer": {"@type": "Answer", "text": "Studies show that most weight returns within 1-2 years of stopping treatment. The STEP 1 extension trial found that participants regained two-thirds of lost weight after discontinuing semaglutide. This suggests GLP-1 medications may need to be taken long-term \u2014 similar to blood pressure or cholesterol medication."}}, {"@type": "Question", "name": "Can you take GLP-1 medications without being diabetic?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Wegovy and Zepbound are specifically FDA-approved for chronic weight management in adults with BMI \u226530 (or \u226527 with a weight-related comorbidity) regardless of diabetes status. Ozempic and Mounjaro are approved only for diabetes but are frequently prescribed off-label for weight loss."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

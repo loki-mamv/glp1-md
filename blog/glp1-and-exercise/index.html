@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://glp1.md/blog/glp1-and-exercise/#article"},
           "wordCount": "736",
           "lastReviewed": "2026-02-20",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "How much muscle do you lose on GLP-1 medications?", "acceptedAnswer": {"@type": "Answer", "text": "Clinical trials show approximately 25-40% of total weight lost is lean mass. In absolute terms, someone who loses 50 lbs might lose 12-20 lbs of lean mass. Resistance training and adequate protein can significantly reduce this ratio, shifting more loss toward fat."}}, {"@type": "Question", "name": "Can you build muscle while on GLP-1 medications?", "acceptedAnswer": {"@type": "Answer", "text": "Building new muscle in a caloric deficit is difficult but possible for beginners (the 'newbie gains' effect). More realistically, the goal during GLP-1 weight loss is muscle preservation, not growth. Once you reach goal weight and increase calories to maintenance, muscle building becomes more feasible."}}, {"@type": "Question", "name": "What's the best exercise for someone on Ozempic?", "acceptedAnswer": {"@type": "Answer", "text": "A combination of resistance training (2-3x/week) and walking (150+ minutes/week) provides the best outcomes. Resistance training preserves lean mass; walking is sustainable, low-barrier cardio. If you can only pick one, prioritize resistance training \u2014 it has the unique benefit of muscle preservation that cardio doesn't provide."}}, {"@type": "Question", "name": "Is it safe to exercise on GLP-1 medications?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for the vast majority of people. Standard exercise precautions apply: stay hydrated, eat adequately, avoid exercising through severe nausea, and monitor blood sugar if diabetic. If you experience dizziness, excessive fatigue, or feel unwell during exercise, stop and discuss with your prescriber."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

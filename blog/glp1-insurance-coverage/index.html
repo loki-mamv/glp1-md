@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://glp1.md/blog/glp1-insurance-coverage/#article"},
           "wordCount": "518",
           "lastReviewed": "2026-02-19",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Will the Treat and Reduce Obesity Act pass?", "acceptedAnswer": {"@type": "Answer", "text": "The bill has bipartisan support and has been introduced multiple times. Its passage would require Medicare to cover FDA-approved anti-obesity medications. Timing is uncertain, but the political momentum has grown as GLP-1 medications have gained public attention. Even if passed, implementation would take time."}}, {"@type": "Question", "name": "Can my doctor prescribe Ozempic for weight loss if I have diabetes?", "acceptedAnswer": {"@type": "Answer", "text": "If you have type 2 diabetes, Ozempic is prescribed on-label for glucose control \u2014 weight loss is a known beneficial effect. Insurance typically covers it for this indication. If you don't have diabetes, Ozempic for weight loss is off-label and less likely to be covered."}}, {"@type": "Question", "name": "What's a prior authorization and how long does it take?", "acceptedAnswer": {"@type": "Answer", "text": "Prior authorization is your insurance company's requirement for your doctor to justify the prescription before they'll cover it. It involves submitting clinical documentation. Timelines vary: some are resolved in 24-72 hours; others take 2-4 weeks. Urgent/expedited reviews can be requested."}}, {"@type": "Question", "name": "Are there any GLP-1 medications that are cheaper?", "acceptedAnswer": {"@type": "Answer", "text": "Liraglutide (Saxenda) is sometimes available at lower cost and has more generic competition potential. Oral semaglutide (Rybelsus) may have different coverage depending on your plan. Compounded versions during shortage periods can be $200-500/month. No GLP-1 is truly 'cheap' at U.S. list prices."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>
