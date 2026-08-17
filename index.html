@@ -90,14 +90,17 @@
           "lastReviewed": "2026-02-06",
           "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"},
           "mainEntity": {
-            "@type": "Drug",
+            "@type": "MedicalTherapy",
+            "@id": "https://glp1.md/#glp1-receptor-agonists",
             "name": "GLP-1 Receptor Agonists",
             "alternateName": ["GLP-1 agonist", "Incretin mimetic", "GLP-1 analog"],
-            "description": "GLP-1 receptor agonists are a class of injectable or oral medications that mimic the GLP-1 hormone to improve blood sugar control, reduce appetite, and promote weight loss in patients with type 2 diabetes or obesity.",
-            "drugClass": "GLP-1 receptor agonist",
-            "clinicalPharmacology": "GLP-1 receptor agonists enhance glucose-dependent insulin secretion, suppress glucagon release, slow gastric emptying, and reduce appetite through central nervous system effects.",
-            "indication": "Type 2 diabetes mellitus, chronic weight management (obesity), cardiovascular risk reduction",
-            "contraindication": "History of medullary thyroid carcinoma, Multiple Endocrine Neoplasia syndrome type 2 (MEN 2), hypersensitivity to the specific GLP-1 agonist"
+            "description": "GLP-1 receptor agonists are a class of injectable or oral medications that mimic the GLP-1 hormone to improve blood sugar control, reduce appetite, and promote weight loss. They are used for type 2 diabetes mellitus, chronic weight management in obesity, and cardiovascular risk reduction.",
+            "howPerformed": "GLP-1 receptor agonists enhance glucose-dependent insulin secretion, suppress glucagon release, slow gastric emptying, and reduce appetite through central nervous system effects.",
+            "relevantSpecialty": {"@id": "https://schema.org/Endocrine"},
+            "contraindication": {
+              "@type": "MedicalContraindication",
+              "name": "History of medullary thyroid carcinoma, Multiple Endocrine Neoplasia syndrome type 2 (MEN 2), hypersensitivity to the specific GLP-1 agonist"
+            }
           },
           "speakable": {
             "@type": "SpeakableSpecification",
