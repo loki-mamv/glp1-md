@@ -16,52 +16,52 @@
     
     <!-- Schema.org FAQ -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How long does it take for GLP-1 medications to work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Blood sugar improvements can be seen within the first 1-2 weeks. Weight loss typically becomes noticeable after 4-8 weeks. Maximum effects are usually achieved after reaching the maintenance dose, which takes 16-20 weeks for most medications due to the gradual titration schedule."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will I regain weight if I stop taking a GLP-1 medication?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Studies show that most patients regain a significant portion of lost weight within 1-2 years of stopping GLP-1 medications. The STEP 1 extension trial found that participants regained about two-thirds of their weight loss one year after stopping semaglutide. This is why these medications are considered chronic treatments, similar to blood pressure medications."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I drink alcohol while taking GLP-1 medications?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Moderate alcohol consumption is generally safe, but be aware that: (1) alcohol may worsen nausea, especially early in treatment; (2) alcohol can cause low blood sugar in people with diabetes; (3) reduced food intake may make alcohol affect you more strongly. Discuss your specific situation with your doctor."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do GLP-1 medications affect fertility or pregnancy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GLP-1 medications should be stopped at least 2 months before planned pregnancy due to potential fetal risks seen in animal studies. Interestingly, weight loss from GLP-1 medications may improve fertility in women with PCOS or obesity-related infertility. If you become pregnant while taking a GLP-1, stop the medication and contact your doctor immediately."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I miss a dose?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For weekly injections (Ozempic, Wegovy, Mounjaro, Zepbound): If less than 5 days have passed, take the dose as soon as possible. If more than 5 days have passed, skip the missed dose and take the next dose on your regular day. Do not take two doses at once. For daily medications (Rybelsus, Victoza): Skip the missed dose and take the next dose as scheduled."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "How long does it take for GLP-1 medications to work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Blood sugar improvements can be seen within the first 1-2 weeks. Weight loss typically becomes noticeable after 4-8 weeks. Maximum effects are usually achieved after reaching the maintenance dose, which takes 16-20 weeks for most medications due to the gradual titration schedule."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I regain weight if I stop taking a GLP-1 medication?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Studies show that most patients regain a significant portion of lost weight within 1-2 years of stopping GLP-1 medications. The STEP 1 extension trial found that participants regained about two-thirds of their weight loss one year after stopping semaglutide. This is why these medications are considered chronic treatments, similar to blood pressure medications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I drink alcohol while taking GLP-1 medications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moderate alcohol consumption is generally safe, but be aware that: (1) alcohol may worsen nausea, especially early in treatment; (2) alcohol can cause low blood sugar in people with diabetes; (3) reduced food intake may make alcohol affect you more strongly. Discuss your specific situation with your doctor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do GLP-1 medications affect fertility or pregnancy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GLP-1 medications should be stopped at least 2 months before planned pregnancy due to potential fetal risks seen in animal studies. Interestingly, weight loss from GLP-1 medications may improve fertility in women with PCOS or obesity-related infertility. If you become pregnant while taking a GLP-1, stop the medication and contact your doctor immediately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I miss a dose?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For weekly injections (Ozempic, Wegovy, Mounjaro, Zepbound): If less than 5 days have passed, take the dose as soon as possible. If more than 5 days have passed, skip the missed dose and take the next dose on your regular day. Do not take two doses at once. For daily medications (Rybelsus, Victoza): Skip the missed dose and take the next dose as scheduled."
+      }
     }
+  ]
+}
     </script>
     
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
@@ -524,7 +524,16 @@
         });
     }
     </script>
-
+        <section class="section" id="faq">
+            <div class="section-label" style="font-size: 12px; font-weight: 600; color: var(--accent, #0d9488); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">FAQ</div>
+            <h2>Frequently asked questions</h2>
+            <div style="margin-top: 20px;">
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">Will I regain weight if I stop taking a GLP-1 medication?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">Studies show that most patients regain a significant portion of lost weight within 1-2 years of stopping GLP-1 medications. The STEP 1 extension trial found that participants regained about two-thirds of their weight loss one year after stopping semaglutide. This is why these medications are considered chronic treatments, similar to blood pressure medications.</p>
+                </div>
+            </div>
+        </section>
 
     <footer>
         <div class="footer-inner">
